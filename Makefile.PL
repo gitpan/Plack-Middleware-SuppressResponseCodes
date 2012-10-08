@@ -26,10 +26,11 @@ my %WriteMakefileArgs = (
   "NAME" => "Plack::Middleware::SuppressResponseCodes",
   "PREREQ_PM" => {
     "Plack::Middleware" => 0,
+    "Plack::Util" => 0,
     "parent" => 0,
     "strict" => 0
   },
-  "VERSION" => "0.1",
+  "VERSION" => "0.2",
   "test" => {
     "TESTS" => "t/*.t"
   }
